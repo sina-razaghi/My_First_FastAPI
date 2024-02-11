@@ -1,6 +1,6 @@
 from enum import Enum
 from fastapi import FastAPI
-
+print(type (2/2))
 
 class ModelName(str, Enum):
     alexnet = "alexnet"
